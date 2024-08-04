@@ -12,7 +12,7 @@ export default function Navbar() {
           width={35}
           height={35}
         />
-        <Link href="/">react-tada</Link>
+        <span className="navbar-text">react-tada</span>
       </h1>
       <nav className="navbar-right">
         <Link href="https://github.com/tada-js/react-tada">Github</Link>

@@ -58,11 +58,14 @@ header {
   width: 100%;
 }
 
+.navbar-text {
+  line-height: 50px;
+}
+
 .navbar-title {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
-  line-height: 1.5;
 }
 
 .navbar-right {
@@ -215,13 +218,20 @@ a.bottom-right {
   background-color: #5f5e5d;
 }
 
+.introduce {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 700px) {
   a {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .navbar-title {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .main > .code {
@@ -229,10 +239,13 @@ a.bottom-right {
   }
   .code-container > pre[class*='language-'] {
     font-size: 0.6rem !important;
-    border-radius: 10px 10px 0 0 !important;
   }
   .counter {
     position: absolute;
-    top: -120px;
+    top: -135px;
+  }
+
+  .introduce {
+    font-size: 1rem;
   }
 }
