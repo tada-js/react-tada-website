@@ -30,11 +30,7 @@ header {
   align-items: center;
   color: #fddb27;
   padding: 0 60px;
-}
-
-nav {
-  display: flex;
-  align-items: center;
+  z-index: 1;
 }
 
 a {
@@ -44,6 +40,26 @@ a {
   font-size: 1.5rem;
   color: inherit;
   text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-title {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-title img {
+  margin-right: 10px;
+}
+
+.navbar-title span {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .main {
@@ -172,6 +188,9 @@ a.bottom-right {
     font-size: 1em;
   }
   header {
+    font-size: 1em;
+  }
+  h1 {
     font-size: 1em;
   }
   .main > .code {

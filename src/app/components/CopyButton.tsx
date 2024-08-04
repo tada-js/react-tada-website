@@ -23,7 +23,7 @@ export default function CopyButton({ code, ...props }: Props) {
     timer.current && clearTimeout(timer.current);
     copyToClipboard(code).then(() => {
       setIsCopied(true);
-      timer.current = setTimeout(() => setIsCopied(false), 3000);
+      timer.current = setTimeout(() => setIsCopied(false), 1000);
     });
   }, [code]);
 
