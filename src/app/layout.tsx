@@ -22,8 +22,9 @@ export default function RootLayout({
         <header>
           <Navbar />
         </header>
-        <PartyPopper />
-
+        <div className="canvas-container">
+          <PartyPopper />
+        </div>
         <main className="main">
           <div className="code">
             <div className="code-container">{children}</div>
