@@ -1,7 +1,7 @@
 'use client';
 
 import { Canvas } from '@react-three/fiber';
-import ExplosionConfetti from '@/app/components/Confetti';
+import ExplosionConfetti from '@/components/Confetti';
 
 const PartyPopper = () => {
   return (

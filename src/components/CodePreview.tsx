@@ -1,11 +1,11 @@
 'use client';
 
+import typescriptCode from '@/resources/typescript-code';
+import javascriptCode from '@/resources/javascript-code';
+import { useLangTada } from '@/store/tada';
 import { Highlight } from 'prism-react-renderer';
-import CopyButton from '@/app/components/CopyButton';
-import SnippetLang from '@/app/components/SnippetLang';
-import javascriptCode from '@/app/resources/javascript-code';
-import typescriptCode from '@/app/resources/typescript-code';
-import { useLangTada } from '@/app/store/tada';
+import SnippetLang from './SnippetLang';
+import CopyButton from './CopyButton';
 
 const useLang = useLangTada.useTada;
 

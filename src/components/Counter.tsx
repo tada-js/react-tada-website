@@ -1,6 +1,6 @@
 'use client';
 
-import { useCountTada } from '@/app/store/tada';
+import { useCountTada } from '@/store/tada';
 
 const useCount = useCountTada.useTada;
 

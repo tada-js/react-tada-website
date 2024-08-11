@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import party_popper from '@/app/resources/party_popper.png';
+import party_popper from '@/resources/party_popper.png';
 
 export default function Navbar() {
   return (

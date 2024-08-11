@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useCallback, useRef } from 'react';
-import { copyToClipboard } from '@/app/utils/copy-to-clipboard';
 import { PrismTheme } from 'prism-react-renderer';
+import { copyToClipboard } from '@/utils/copy-to-clipboard';
 
 /*
 Isolated logic for the entire copy functionality instead

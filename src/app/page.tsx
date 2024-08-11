@@ -1,6 +1,6 @@
-import CodePreview from '@/app/components/CodePreview';
-import Counter from '@/app/components/Counter';
-import Introduce from '@/app/components/Introduce';
+import CodePreview from '@/components/CodePreview';
+import Counter from '@/components/Counter';
+import Introduce from '@/components/Introduce';
 
 export default function Home() {
   return (
